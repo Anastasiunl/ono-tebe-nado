@@ -4,7 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
-  <body></body>
+  <body class="main">
+    <!-- Шапка сайта -->
+    <header>
+      <!-- Меню навигации -->
+        <nav class="header_menu">
+           <ul class="header__links-list">
+             <li class="header__links-list-item header__links-list-item_no-bullit">главная</li>
+             <li class="header__links-list-item">
+              <a href="#lots">посмотреть лоты</a>
+             </li>
+             <li class="header__links-list-item">
+              <a href="#auction">об аукционе</a>
+             </li>
+           </ul>
+        </nav>
+        <div class="header_logo">
+          <img class="header__logo-image" 
+          src="images/logo-black.svg"
+          alt="Лого проекта">
+        </div>
+        <div class="address">
+          <a href="tel:+99995555555" class="header__link_active">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge" class="header__link_active">info@sobaka.ge</a>
+          <address class="header__link_active header__address">наб. Принсенграхт 263-265,<br>Амстердам</address>
+        </div>
+    </header>
+
+    <main> 
+      <div class="cover overlay">
+        <span class="aligned-text letter-spacing-extended">оно</span>
+        <span class="aligned-text_center letter-spacing-extended">Тебе</span>
+        <span class="aligned-text_right letter-spacing-extended">Надо</span>
+        <div class="cover__description"></div>
+      </div>  
+      <div class="lots">
+      </div>
+      <div class="about">
+
+      </div>
+    </main>
+
+
+
+
+    <!--<footer>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <img src="/images/yt.svg" alt="Youtube">
+        </li>
+        <li class="footer__social-list-item">
+          <img src="/images/vk.svg" alt="VKontacte">
+        </li>
+        <li class="footer__social-list-item">
+          <img src="/images/pinterest.svg" alt="Pinterest">
+        </li>
+      </ul>
+    </footer>-->
+  </body>
 </html>

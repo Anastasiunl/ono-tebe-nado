@@ -1,1 +1,88 @@
-/* место для вашего кода */
+header{
+  margin: 0;
+  padding: 0;
+  height: 380px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 3fr 5fr;
+  grid-template-rows: 380px;
+  font-size: 23px;
+  font-weight: 400;
+}
+.header_menu{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+.header__links-list{
+  display: flex;
+  gap: 30px;
+  letter-spacing: 1.5px;
+  background-color: #981c1c;
+  padding: 5px 0px 0px 30px;
+}
+.header__links-list-item {
+  align-content: center;
+  list-style: circle;
+  background-color: blueviolet;
+}
+.header__links-list-item_no-bullit{
+  list-style-type: none;
+}
+.header_logo{
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo-image{
+  width: 175px;
+  height: 210px;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: brown;
+  align-items: left;
+  margin: auto;
+  padding: 65px 1px 75px 180px;
+  
+}
+.header__link_active{
+  background-color: red;
+  text-align: left;
+  
+}
+.cover{
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  max-height: 757px;
+  max-width: 1440px;
+  padding: 165px 50px 237px 50px;
+  background-position: center;
+}
+.overlay{
+display: flex;
+}
+.span{
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 380px;
+  background-color: #981c1c;
+
+}
+.aligned-text{
+
+}
+.lots{
+  height: 729px;
+  background-color: rgb(16, 124, 124);
+}
+.footer__social-list-item{
+  height: 50px;
+  width: 50px;
+}
