@@ -135,14 +135,14 @@ header{
  display: flex;
  align-items: center;
  justify-content: center;
- background-color: blue;
- cursor: pointer;
- font-size: 29px;
+ align-items: center;
+ margin: 70px;
  border: solid white 1px;
+ padding-left: 10px;
+ font-size: 29px;
  letter-spacing: 0px;
  word-spacing: 0px;
- margin: 70px;
- padding-left: 10px;
+ cursor: pointer;
 }
 .lots{
   padding-top: 10px;
@@ -152,16 +152,16 @@ header{
   width: 100%;
 }
 .lots__heading{
-  padding-top: -10px;
   box-sizing: border-box;
+  height: 300px;
+  padding-top: -10px;
   padding-top: 225px;
   padding-left: 66px;
-  text-transform: uppercase;
-  height: 300px;
-  letter-spacing: 1px;
   color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 51px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 
 }
 .lots__card-list{
@@ -169,12 +169,11 @@ header{
   justify-content: space-around;
   box-sizing: border-box;
   margin-top: 20px;
-  margin-left: 15px;
   margin-right: 10px;
+  margin-left: 15px;
 }
 .card{
   height: 785px;
-  width: 442px; 
 }
 .card_type_film{
 background-image: url(/images/card-lot-01.jpg);
@@ -187,6 +186,9 @@ background-image: url(/images/card-lot-02.jpg);
   background-image: url(/images/card-lot-03.jpg);
 }
 .card__title{
+  margin-left: 14px;
+  padding: 40px;
+  padding-top: 66px;
   color: white;
   font-size: 28px;
   text-decoration: underline;
@@ -201,16 +203,20 @@ background-image: url(/images/card-lot-02.jpg);
   line-height: 1.23;
 }
 .card__text-film{
+  margin-top: 245px;
+  padding-top: 62px;
+  padding-right: 55px;
+  padding-left: 55px;
   color: white;
   font-size: 25px;
-  padding-top: 62px;
-  padding-left: 55px;
-  padding-right: 55px;
-  margin-top: 245px;
+  line-height: 31px;
   letter-spacing: 0.6px;
   line-height: 31px;
 }
 .card__text-book{
+  padding-top: 5px;
+  padding-right: 60px;
+  padding-left: 52px;
   color: white;
   font-size: 25px;
   padding-left: 52px;
@@ -220,6 +226,10 @@ background-image: url(/images/card-lot-02.jpg);
   letter-spacing: 0.6px;
 }
 .card__text-picture{
+  padding: 63px;
+  padding-top: 130px;
+  padding-right: 60px;
+  padding-left: 52px;
   color: white;
   font-size: 25px;
   padding: 63px;
