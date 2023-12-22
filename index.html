@@ -35,7 +35,6 @@
           <address class="header__link_active header__address">наб. Принсенграхт 263-265,<br>Амстердам</address>
         </div>
     </header>
-
     <main> 
       <div class="cover">
        <div class="overlay">
@@ -77,23 +76,79 @@
           Лоты
         </div>
         <div class="lots__card-list">
-         <div class="card card_type_film"></div>
-         <div class="card card_type_book"></div>
-         <div class="card card_type_picture"></div>
+         <div class="card card_type_film">
+          <div class="overlay"> 
+            <div class="card__title">
+              Фильм режиссёра,
+              который бросил
+              киношколу
+            </div>
+            <div class="card__text-film">
+              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+            </div>
+          </div>
+         </div>
+         
+         <div class="card card_type_book">
+          <div class="overlay">
+            <div class="card__title">
+              Книга, где описан один скучный день из жизни рекламного агента
+            </div>
+            <div class="card__text-book">
+              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+            </div>
+          </div>
+         </div>
+          <div class="card card_type_picture">
+            <div class="overlay">
+              <div class="card__title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </div>
+              <div class="card__text-picture">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+              </div>
+            </div>
+          </div>
+         
         </div> 
+        <div class="lots__look-more-link">
+          посмотреть больше
+        </div>
       </div>
-
-
-
       <div class="about">
+        <div class="about__column">
+          <div class="about__logo">
+            <div class="about__logo-image">
+              <img src="/images/logo-white.svg">
+            </div>
+          </div>
+          <div class="about__column-text">
+          <div class="about__title">
+           Об аукционе
+          </div>
+          <div class="about__text">
+            <div>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+            </div>
+            <div>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
+            </div>
+          </div>
+        </div>
       </div>
     </main>
-
-
-
-
     <footer>
-      <ul class="footer__social-list">
+      <div class="footer__menu">
+        <div class="address footer__adress">
+          <a href="tel:+99995555555" class="header__link_active">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge" class="header__link_active">info@sobaka.ge</a>
+          <address class="header__link_active header__address">наб. Принсенграхт 263-265,<br>Амстердам</address>
+        </div>
+        <div class="footer__menu-list">
+          <div class="footer__menu-list-item">главная</div>
+          <div class="footer__menu-list-item footer__menu-list-item-underline">посмотреть лоты</div>
+          <div class="footer__menu-list-item footer__menu-list-item-underline">об аукционе</div>
+        </div>
+      <div>
+       <ul class="footer__social-list">
         <li class="footer__social-list-item">
           <img src="/images/yt.svg" alt="Youtube">
         </li>
@@ -103,7 +158,9 @@
         <li class="footer__social-list-item">
           <img src="/images/pinterest.svg" alt="Pinterest">
         </li>
-      </ul>
+       </ul>
+      </div>
+      </div>
     </footer>
 
   </body>
