@@ -42,7 +42,6 @@ header{
   height: 210px;
 }
 address{
-  background-color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,7 +54,7 @@ address{
   line-height: 31px;
   letter-spacing: 0.5px;
   text-underline-offset: 5px;
-  word-spacing: -0.5px;
+  word-spacing: 0.5px;
   font-style: normal;
 }
 
