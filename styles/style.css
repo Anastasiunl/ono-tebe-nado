@@ -60,10 +60,7 @@ header{
 .header__link_active{
   text-align: left;
 }
-.header__address{
-  font-style: normal;
-}
-.cover{
+.cover{ 
   position: relative;
   z-index: 0;
   display: block;
