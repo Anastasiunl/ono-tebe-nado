@@ -81,6 +81,8 @@ address{
 }
 .cover__content{
   position: absolute;
+  height: inherit;
+  width: inherit;
   z-index: 3;
 }
 .cover__title{
