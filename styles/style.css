@@ -189,6 +189,8 @@ address{
   margin-top: 27px;
   padding-right: 193px;
   padding-left: 193px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .card{
   position: relative;
@@ -243,6 +245,7 @@ background-size: cover;
 .card__text-picture{
   z-index: 3;
   padding: 131px 40px 0px 40px;
+
 }
 .lots__look-more-link{
   display: inline-block;
@@ -273,14 +276,14 @@ background-size: cover;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  max-width: 240px;
+  width: 240px;
   max-height: 240px;
   margin-left: 70px;
   border-radius: 50%;
   background-color: black;
 }
 .about__logo-image{
-  max-width: 148px;
+  width: 148px;
   max-height: 114px;
 }
 .about__column-text{
