@@ -184,13 +184,13 @@ address{
 }
 .lots__card-list{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 30px;
   box-sizing: border-box;
   margin-top: 27px;
   padding-right: 193px;
   padding-left: 193px;
-  flex-wrap: wrap;
-  gap: 30px;
 }
 .card{
   position: relative;
