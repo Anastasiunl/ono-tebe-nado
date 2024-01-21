@@ -164,6 +164,7 @@ address{
  margin-left: 60px;
  border: solid white 1px;
  color: white;
+ font-family: Raleway;
  font-weight: 500;
  font-size: 22px;
  letter-spacing: 0px;
@@ -193,6 +194,9 @@ address{
   margin-top: 27px;
   padding-right: 23px;
   padding-left: 23px;
+}
+.lots_card-list-item{
+  list-style-type: none;
 }
 .card{
   position: relative;
@@ -305,10 +309,10 @@ background-image: url(../images/card-lot-02.jpg);
  word-spacing: 0px;
 }
 .text{
-  padding-bottom: 0px;
+ margin-top: 24px;
 }
-.text:last-child{
-  margin-top: 24px;
+.text:first-child{
+ margin-top: 0px;
 }
 .footer__menu{
   display: flex;
@@ -316,7 +320,7 @@ background-image: url(../images/card-lot-02.jpg);
   align-items: start;
   box-sizing: border-box;
   width: 100%;
-  padding-top: 180px;
+ padding-top: 180px;
   padding-right: 25px;
   padding-left: 25px;
   font-size: 18px;
